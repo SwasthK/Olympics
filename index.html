@@ -7,65 +7,36 @@
     <link rel="icon" href="./assets/images/1.jpg" type="image/x-icon" />
     <title>Paris Olympics 2024</title>
   </head>
-  <body>    
 
-    <button onclick="window.location.href='blogs.html'">Blogs</button>
-    <!-- <div class="category">
-      <div class="cat1">
-        <h1>Wowen's Vollyall</h1>
-      </div>
-      <div class="cat2">
-        <div>
-          <div>Swimming</div>
-          <div></div>
-        </div>
-        <div>
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-    </div> -->
+  <body>
+    <!-- Loader -->
+    <div id="preload">Loading</div>
 
-    <!-- <div class="partners">
-      <h1 style="color: white">Worldwide Partners</h1>
-      <div>
-        <h1
-          style="
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-              'Lucida Sans', Arial, sans-serif;
-          "
-        >
-          Microsoftl
-        </h1>
-        <h1
-          style="
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
-              serif;
-          "
-        >
-          Alibabagl
-        </h1>
-      </div>
-      <div></div>
-      <div>
-        <h1 style="font-family: cursive">Olympicls</h1>
-        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif">
-          Behancel
-        </h1>
-      </div>
-      <div>
-        <h1
-          style="
-            font-family: system-ui, -apple-system, BlinkMacSystemFont,
-              'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-              'Helvetica Neue', sans-serif;
-          "
-        >
-          GooOglel
-        </h1>
-      </div>
-    </div> -->
+    <!-- Navbar -->
+    <nav>
+      <h1>Olympics <span style="font-size: 1rem">2024</span></h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#highlighscroll">Highlights</a></li>
+        <li><a href="#ticket">Tickets</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
+    <!-- Hero-section -->
+    <div class="hero-section" id="home">
+      <div class="hero-image"></div>
+      <div class="hero-content">
+        <h1>
+          Paris <span style="color: chartreuse">Olympics</span>
+          <span>2024</span>
+        </h1>
+        <p>Never miss a moment !</p>
+      </div>
+    </div>
+
+    <!-- Events-timer -->
     <div class="eventstimer">
       <div>
         <p>Next Event :</p>
@@ -77,31 +48,84 @@
       </div>
     </div>
 
-    <div class="highlights">
+    <!-- Bento-Grid -->
+    <div class="category">
+      <img
+        src="https://as2.ftcdn.net/v2/jpg/07/95/16/09/1000_F_795160967_B3DrXGNKEVIbQJbEKBiwD76tfT0mWjgE.jpg"
+        alt=""
+      />
+      <div class="categorybox">
+        <img
+          src="https://as2.ftcdn.net/v2/jpg/06/96/86/93/1000_F_696869380_j5UGnFHZSwiuHlih2VT5JXCP9EKV27PR.jpg"
+          alt=""
+        />
+        <div>
+          <div id="cat1"></div>
+          <div id="cat2"></div>
+        </div>
+      </div>
+    </div>
+
+    <marquee behavior="scroll" direction="left" scrollamount="6">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quas
+      dolores dignissimos
+      <span style="color: yellowgreen"
+        >numquam incidunt fugiat magnam quod iusto vel assumenda.</span
+      >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quas
+      dolores dignissimos
+      <span style="color: yellowgreen"
+        >numquam incidunt fugiat magnam quod iusto vel assumenda.</span
+      >
+    </marquee>
+
+    <!-- Highlights-section -->
+    <div class="highlights" id="highlighscroll">
       <div class="hhead">
         <h1>Highlights</h1>
-        <a style="font-size: 1.2rem; color: rgb(146, 101, 101)" href="#"
+        <a style="font-size: 1.2rem; color: rgb(146, 101, 101)" href="_blank"
           >view all</a
         >
       </div>
       <hr />
       <div class="hbox">
         <div>
-          <img src="/assets//images/1.jpg" alt="" />
+          <img src="https://as2.ftcdn.net/v2/jpg/07/40/81/41/1000_F_740814146_GkQyuJ7HTy8PN2vprUa5mbvTr53wF1Bu.jpg" alt="" />
           <h1>
             Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet,
             consectetur adipisicing elit.
           </h1>
         </div>
         <div>
-          <img src="/assets//images/1.jpg" alt="" />
+          <img src="https://as2.ftcdn.net/v2/jpg/07/40/95/55/1000_F_740955518_r9nERzR55L0QEb1yAvhvmQRXHayLn6Jz.jpg" alt="" />
           <h1>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
             voluptates!
           </h1>
         </div>
         <div>
-          <img src="/assets//images/1.jpg" alt="" />
+          <img src="https://as1.ftcdn.net/v2/jpg/07/96/49/44/1000_F_796494412_rcRLJJh0SVSP06bbtNGrsnIgwhQPHmc0.jpg" alt="" />
+          <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+            voluptates!
+          </h1>
+        </div>
+        <div>
+          <img src="https://as1.ftcdn.net/v2/jpg/06/94/43/98/1000_F_694439888_tWrElN9tRmc0cwhMCctKZJOblhHn0NYe.jpg" alt="" />
+          <h1>
+            Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit.
+          </h1>
+        </div>
+        <div>
+          <img src="https://as1.ftcdn.net/v2/jpg/07/30/44/58/1000_F_730445808_re6TOnua55xDzkFJMJmd4oo18VV3jTJY.jpg" alt="" />
+          <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+            voluptates!
+          </h1>
+        </div>
+        <div>
+          <img src="https://as1.ftcdn.net/v2/jpg/08/13/05/00/1000_F_813050017_CoSkSenCo2j3HeZLZV2gQJsJ2IAnbb1N.jpg" alt="" />
           <h1>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
             voluptates!
@@ -110,8 +134,9 @@
       </div>
     </div>
 
+    <!-- about-paris-section -->
     <div class="section1">
-      <div class="simage"></div>
+      <img src="https://as1.ftcdn.net/v2/jpg/07/69/11/08/1000_F_769110844_dGuomgxtyW2QHNUF6kAn99nneCCSZycW.jpg" alt="" />
       <div class="scontent">
         <h1>About Paris Olympics</h1>
         <p>
@@ -122,6 +147,7 @@
         </p>
       </div>
     </div>
+
     <div class="section1">
       <div class="scontent">
         <h1>About Paris Olympics</h1>
@@ -132,9 +158,11 @@
           expedita.
         </p>
       </div>
-      <div class="simage"></div>
+      <img src="https://as2.ftcdn.net/v2/jpg/07/09/98/01/1000_F_709980196_9Hfan6vu2Buu1lY4QgdnKw1J5OPMtADz.jpg" alt="" />
     </div>
-    <div class="box1">
+
+    <!-- Ticket-section -->
+    <div class="box1" id="ticket">
       <h1>Explore the world of sports</h1>
       <button
         class="btn"
@@ -144,6 +172,7 @@
       </button>
     </div>
 
+    <!-- Partners-section -->
     <div class="part">
       <h1 style="margin-bottom: 70px">Worldwide Partners</h1>
       <marquee behavior="scroll" direction="left" scrollamount="12">
@@ -176,8 +205,16 @@
       </marquee>
     </div>
 
+    <!-- FAQ-section -->
     <div class="faq">
       <h1>FAQ :</h1>
+      <details>
+        <summary>When is the Next event</summary>
+        <p>
+          This is additional information that can be hidden or shown by clicking
+          on the "More Information" summary above.
+        </p>
+      </details>
       <details>
         <summary>When is the Next event</summary>
         <p>
@@ -208,11 +245,12 @@
       </details>
     </div>
 
+    <!-- Newsletter-section -->
     <div class="newsletter">
       <div>
         <h1>Suscribe to the Newsletter</h1>
       </div>
-      <form action="">
+      <form>
         <input type="email" required placeholder="Enter Your Email" />
         <button onclick="confirm('Are you sure you want to subscribe?')">
           Subscribe
@@ -220,9 +258,7 @@
       </form>
     </div>
 
-
-
-    <footer>
+    <footer id="contact">
       <div>
         <h1 style="color: white; font-size: 4rem">Connect us !</h1>
         <div class="fbox1">
@@ -245,4 +281,14 @@
       <p class="cpy">Copyright @ParisOlympics2024</p>
     </footer>
   </body>
+
+  <!-- Loader-script -->
+  <script>
+    const preload = document.getElementById("preload");
+    window.addEventListener("load", () => {
+      setTimeout(() => {
+        preload.style.display = "none";
+      }, 1000);
+    });
+  </script>
 </html>
