@@ -8,7 +8,6 @@
 html,
 body {
     height: 100%;
-overflow-x:hidden;
     width: 100%;
     font-weight: 900;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,6 +41,7 @@ overflow-x:hidden;
     color: black;
     z-index: 100;
 }
+
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* Navigation styles */
@@ -263,7 +263,7 @@ ul li a:hover {
     padding: 80px;
 }
 
-.section1>img{
+.section1>img {
     height: 20rem;
     width: 35rem;
     object-fit: cover;
@@ -463,9 +463,3 @@ footer>div>h1 {
 .fbox1>div>a {
     color: white;
 }
-
-
-
-
-
-
