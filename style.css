@@ -23,6 +23,25 @@ body {
     color: black;
 }
 
+.eventstimer {
+    width: 100%;
+    display: flex;
+    gap: 10rem;
+    padding: 3rem 10rem;
+}
+
+.eventstimer>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.eventstimer>div>h1 {
+    font-size: 3rem;
+    color: #f1c40f;
+}
+
 .category {
     display: flex;
     padding: 30px;
@@ -149,14 +168,15 @@ footer {
     width: 100%;
     background-color: black;
 }
-footer>div{
+
+footer>div {
     display: flex;
     padding: 0px 40px;
     justify-content: center;
     align-items: center;
 }
 
-footer>div>h1{
+footer>div>h1 {
     flex: 40%;
 }
 
@@ -175,14 +195,16 @@ footer>div>h1{
     align-items: center;
     margin-bottom: 30px;
 }
-.fbox1>div{
+
+.fbox1>div {
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
     border-left: 1px solid wheat;
     padding-left: 30px;
 }
-.fbox1>div>a{
+
+.fbox1>div>a {
     color: white;
 }
 
@@ -225,7 +247,9 @@ footer>div>h1{
 }
 
 .part {
-    padding: 80px;
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    padding: 180px;
+    height: 100vh;
     font-size: 2rem;
     text-align: center;
 }
@@ -248,29 +272,101 @@ marquee>div>h1:nth-child(even) {
 marquee>div>h1:nth-child(odd) {
     color: #cec18d;
 }
-.newsletter{
+
+.newsletter {
     background-color: aliceblue;
     padding: 5rem;
-    display:flex ;
+    display: flex;
     flex-direction: column;
     gap: 30px;
     justify-content: center;
     align-items: center;
     color: black;
 }
-form{
+
+form {
     padding: 20px;
 }
-input{
+
+input {
     border: 1px solid black;
     padding: 10px 16px;
     border-radius: 20px;
     font-size: 1rem;
 }
-form>button{
+
+form>button {
     background-color: red;
     font-weight: 600;
     color: white;
     margin-left: 20px;
     padding: 10px 16px;
 }
+
+.highlights {
+    padding: 6rem 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    color: black;
+}
+
+.hhead {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.hbox>div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.hbox>div>img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 15rem;
+    border-radius: 10px;
+}
+
+.hbox>div>h1 {
+    font-size: 1.3rem;
+    /* font-weight: 300; */
+}
+
+.faq {
+    background-color: white;
+    padding: 3rem 10rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.faq>h1 {
+    font-size: 3rem;
+}
+
+details {
+    margin-bottom: 10px;
+}
+
+summary {
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+
